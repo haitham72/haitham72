@@ -185,8 +185,6 @@
   <br/>
   <img src="https://streak-stats.demolab.com/?user=haitham72&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub streak" width="97%"/>
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=haitham72&theme=github-compact&bg_color=0D1117&hide_border=true" alt="Activity graph" width="97%"/>
-  <br/>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haitham72/haitham72/output/snake-dark.svg"/>
     <img src="https://raw.githubusercontent.com/haitham72/haitham72/output/snake.svg" alt="Contribution snake" width="97%"/>
