@@ -32,24 +32,24 @@
   </style>
   <rect width="800" height="300" fill="#0d1117"/>
   <text x="30" y="40" class="code-line">
-    <tspan class="keyword">import</tspan> <tspan class="function">llm</tspan>
+    <tspan class="keyword">from</tspan> <tspan class="function">langgraph</tspan> <tspan class="keyword">import</tspan> <tspan class="function">StateGraph</tspan>
   </text>
   <text x="30" y="70" class="code-line">
-    <tspan class="keyword">from</tspan> <tspan class="function">rag</tspan> <tspan class="keyword">import</tspan> <tspan class="function">HybridSearch</tspan>
+    <tspan class="keyword">from</tspan> <tspan class="function">rag</tspan> <tspan class="keyword">import</tspan> <tspan class="function">HybridRetriever</tspan>
   </text>
   <text x="30" y="100" class="code-line">
-    <tspan class="keyword">from</tspan> <tspan class="function">agents</tspan> <tspan class="keyword">import</tspan> <tspan class="function">Orchestrator</tspan>
+    <tspan class="keyword">from</tspan> <tspan class="function">agents</tspan> <tspan class="keyword">import</tspan> <tspan class="function">ResearchAgent</tspan>
   </text>
-  <text x="30" y="130" class="code-line" class="comment"># Build production AI systems</text>
+  <text x="30" y="130" class="code-line" class="comment"># Production Arabic RAG System</text>
   <text x="30" y="160" class="code-line">
-    <tspan class="function">system</tspan> = <tspan class="function">Orchestrator</tspan>(
+    <tspan class="function">workflow</tspan> = <tspan class="function">StateGraph</tspan>(<tspan class="function">AgentState</tspan>)
   </text>
-  <text x="50" y="190" class="code-line">
-    search=<tspan class="function">HybridSearch</tspan>(<tspan class="string">"arabic"</tspan>),
+  <text x="30" y="190" class="code-line">
+    workflow.<tspan class="function">add_node</tspan>(<tspan class="string">"research"</tspan>, <tspan class="function">ResearchAgent</tspan>())
   </text>
-  <text x="50" y="220" class="code-line">
-    eval=<tspan class="function">RegressionGated</tspan>()
+  <text x="30" y="220" class="code-line">
+    workflow.<tspan class="function">add_edge</tspan>(<tspan class="string">"research"</tspan>, <tspan class="string">"validator"</tspan>)
   </text>
-  <text x="30" y="250" class="code-line">)</text>
+  <text x="30" y="250" class="code-line">workflow.<tspan class="function">compile</tspan>()</text>
   <text x="30" y="280" class="code-line cursor">_</text>
 </svg>
