@@ -91,7 +91,7 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>Hamdan</h3>
+      <h3>Arabic RAG Platform</h3>
       <p>Production Arabic RAG &amp; agentic system for a Dubai government office.</p>
       <p><code>Python</code> <code>LangGraph</code> <code>FastAPI</code> <code>pgvector</code> <code>n8n</code> <code>LangSmith</code> <code>AWS</code></p>
       <ul>
@@ -114,17 +114,7 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Mirsal Builder</h3>
-      <p>Local, private AI Telegram sticker-generation platform.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>pgvector</code> <code>Redis</code> <code>React</code></p>
-      <ul>
-        <li>LangGraph chat over Studio functions with human approval gates G1–G5</li>
-        <li>Ticket-first paid provider calls so a crash never double-charges</li>
-        <li>44 deterministic checks across 9 stages, Telegram pack delivery</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3>Faz3</h3>
       <p>Arabic comment classification for large-scale social media moderation.</p>
       <p><code>Python</code> <code>Supabase</code> <code>Arabic NLP</code></p>

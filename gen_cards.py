@@ -240,7 +240,7 @@ def contributions():
     write("contributions.svg", "".join(out))
 
 
-# ── 4. Animated retrieval pipeline (Hamdan / ReguLense pattern from the CV) ──
+# ── 4. Animated retrieval pipeline (retrieval pattern from the CV) ──
 def pipeline():
     W, H = 520, 420
     stages = [
