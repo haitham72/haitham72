@@ -1,8 +1,13 @@
 # Ignore everything by default
 *
 
-# But allow specific files
+# Allow-list
+!.gitignore
 !README.md
+!gen_cards.py
 !assets/
 !assets/*.svg
-!.gitignore
+!assets/portrait.jpg
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
