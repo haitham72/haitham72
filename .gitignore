@@ -1,0 +1,8 @@
+# Ignore everything by default
+*
+
+# But allow specific files
+!README.md
+!assets/
+!assets/*.svg
+!.gitignore
