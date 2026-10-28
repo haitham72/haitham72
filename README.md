@@ -18,7 +18,7 @@
   <a href="https://haitham72.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/></a>
   <a href="mailto:ihisam@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/haitham72/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://neohealth-gpzo.onrender.com"><img src="https://img.shields.io/badge/ReguLense_Live-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="ReguLense live demo"/></a>
+  <a href="https://regulense.onrender.com"><img src="https://img.shields.io/badge/ReguLense_Live-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="ReguLense live demo"/></a>
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=haitham72&color=39d353&style=flat-square&label=profile+views" alt="Profile views"/>
@@ -102,7 +102,7 @@
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://neohealth-gpzo.onrender.com">ReguLense</a> · <a href="https://github.com/haitham72/NeoHealth">code</a></h3>
+      <h3><a href="https://regulense.onrender.com">ReguLense</a> · <a href="https://github.com/haitham72/regulense">code</a></h3>
       <p>Version- and jurisdiction-aware RAG for UAE health regulation. Live.</p>
       <p><code>Python</code> <code>FastAPI</code> <code>pgvector</code> <code>OpenAI</code> <code>React</code> <code>Docling</code> <code>Docker</code></p>
       <ul>
@@ -115,7 +115,7 @@
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3>Faz3</h3>
+      <h3>Arabic Comment Moderation · <a href="https://github.com/haitham72/Persocial">open-source edition</a></h3>
       <p>Arabic comment classification for large-scale social media moderation.</p>
       <p><code>Python</code> <code>Supabase</code> <code>Arabic NLP</code></p>
       <ul>
@@ -123,6 +123,35 @@
         <li>Confidence scoring and a human-in-the-loop moderator queue</li>
         <li>941 comments in 32.6 s; human escalation cut from 41% to 10.5%</li>
       </ul>
+    </td>
+  </tr>
+</table>
+
+<h2 align="center">Open Source</h2>
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/haitham72/MeMCP">MeMCP</a></h3>
+      <p>Local temporal memory for AI agents: timeline, people, patterns and promises in markdown you own, served over MCP.</p>
+      <p><code>Python</code> <code>MCP</code> <code>pgvector</code> <code>BM25</code> <code>RRF</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/haitham72/schemasmith">schemasmith</a></h3>
+      <p>Describe a use case; the LLM drafts a validated spec, you review the migration plan, and the app renders itself.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>Postgres</code> <code>OpenAI</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/haitham72/Persocial">Persocial</a></h3>
+      <p>Comment triage for your own Instagram: Arabic and English scored locally, LLM judge on the risky few, solo CLI or team queue.</p>
+      <p><code>Python</code> <code>Hugging Face</code> <code>Supabase</code> <code>React</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/haitham72/stickerloom">stickerloom</a></h3>
+      <p>Prompt in, verified Telegram sticker pack out: 44 verification checks, approval gates, offline demo mode.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>OpenCV</code> <code>Generative AI</code></p>
     </td>
   </tr>
 </table>
